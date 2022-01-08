@@ -1,0 +1,19 @@
+.m-header {
+  background-color: #fffffe;
+  &__nav {
+    padding: 15px;
+    &__item {
+      color: #212121;
+    }
+  }
+  &__actions {
+    padding: 15px;
+    &__btn {
+      margin: 0 0.5rem;
+      font-size: clamp(0.8rem, 2.5vw, 0.9rem);
+      &.--singIn {
+        background-color: rgb(49, 151, 149);
+      }
+    }
+  }
+}

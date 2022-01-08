@@ -1,0 +1,28 @@
+.m-footer {
+  background-color: $kusawasi-green;
+  &__about {
+    &__content {
+      font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+      &__title {
+        margin: 0;
+        padding: 20px;
+        letter-spacing: 3px;
+      }
+      &__link {
+        color: #fffffe;
+        text-decoration: none;
+        &:hover {
+          font-weight: bolder;
+        }
+      }
+      &__rights {
+        font-size: clamp(0.9rem, 2.5vw, 1.05rem);
+      }
+    }
+  }
+  &__brand {
+    &__phrase {
+      font-size: clamp(0.8rem, 2.5vw, 1.05rem);
+    }
+  }
+}
