@@ -5,6 +5,7 @@
         width="200px"
         src="https://kusawasi.herokuapp.com/images/logo_negro_1.png?332c963854177d06930685effddc9900"
       />
+      aaaa
     </picture>
     <q-tabs
       active-color="teal-6"
